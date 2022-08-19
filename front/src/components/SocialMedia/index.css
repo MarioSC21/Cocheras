@@ -1,0 +1,53 @@
+.media-container {
+    height: 9vh;
+    background-image: linear-gradient(20deg, #1b3444 0%, #2c2542 50%,black 100%);
+    background-size: 150% 150%;
+}
+
+.logo-titulo3 {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: white;
+}
+
+.logo-titulo4 {
+    border: solid snow;
+    border-radius: 50%;
+    padding: 5px;
+    background-color: #D93B30;
+    color: white;
+}
+
+@media only screen and (min-width: 390px) {
+    .media-container {
+        height: 40vh;
+        background-image: linear-gradient(20deg, #1b3444 0%, #2c2542 50%,black 100%);
+        background-size: 150% 150%;
+        text-align: center;
+    }
+  }
+
+@media only screen and (min-width: 600px) {
+    .media-container {
+        height: 40vh;
+        background-image: linear-gradient(20deg, #1b3444 0%, #2c2542 50%,black 100%);
+        background-size: 150% 150%;
+        text-align: center;
+    }
+  }
+
+  @media only screen and (min-width: 900px) {
+    .media-container {
+        height: 10vh;
+        background-image: linear-gradient(20deg, #1b3444 0%, #2c2542 50%,black 100%);
+        background-size: 150% 150%;
+    }
+  }
+
+  @media only screen and (min-width: 1200px) {
+    .media-container {
+        height: 10vh;
+        background-image: linear-gradient(20deg, #1b3444 0%, #2c2542 50%,black 100%);
+        background-size: 150% 150%;
+    }
+  }

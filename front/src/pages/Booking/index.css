@@ -1,0 +1,165 @@
+/* Titulo principal inicio */
+*{
+    margin: 0;
+    padding: 0;
+}
+.titulo-principal{
+    margin-top: 30px;
+    padding-top: 5px !important;
+}
+
+.reserva-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0 !important;
+    margin: 0 !important;
+    color: rgb(105, 104, 104);
+    margin-top: 30px;
+}
+
+.reserva-items div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* Titulo principal final */
+
+/* imagen inicio */
+.img-principal{
+    object-fit: cover;
+    min-width: 100%;
+    max-width: 100%;
+    height: 450px;
+}
+
+.img-sec{
+    object-fit: cover;
+    width: 273px;
+    height: 250px;
+}
+/* imagen final */
+
+/* Descripcion inicio */
+.titulo-cochera{
+    margin: 30px 0;
+}
+.titulo-cochera-uno{
+    margin-top: 30px;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+.titulo-cochera-dos{
+    /* margin-top: 10px;
+    margin-bottom: 30px; */
+    font-weight: 300;
+}
+
+.titulo-cochera-dos span{
+    font-weight: 700;
+}
+
+.description{
+    margin: 30px 0;
+}
+/* Descripcion final */
+
+/* Date Static inicio */
+
+.fecha-container{
+    margin: 30px 0;
+}
+.titulo-fechas{
+    margin: 30px 0;
+    font-size: 1.5em;
+    font-weight: 500;   
+}
+
+.static-date-container{
+    display: flex;
+} 
+/* Date Static fin */
+
+/* card inicio*/
+.date-container{
+    margin-top:25px;
+    width: 100%;
+} 
+
+.card-precio{
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.card-precio-aux{
+    font-size: 1.5em;
+}
+
+.titulo-cochera{
+    text-align: left;
+}
+
+.card-main-info{
+    position: sticky;
+    top:200px;
+}
+
+.card-info{
+    padding: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/* card final*/
+
+/* mapa inicio */
+.titulo-mapa{
+    margin-top: 30px;
+    font-size: 1.5em;
+    font-weight: 500;   
+}
+
+.map-container{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.map-cont{
+    height: 500px;
+}
+/* mapa final */
+
+.fech-ini{
+    margin-left: 10px;
+}
+
+@media only screen and (max-width: 550px) {
+
+    .reserva-items div{
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: flex-start;
+        font-size: small;
+    }
+    .img-principal{
+        width: 350px;
+        height: 350px;
+    }
+    .img-sec{
+        width: 350px;
+        height: 350px;
+    }
+    .static-date-container{
+        display: flex;
+        flex-direction: column !important;
+    }
+    .card-main-info{
+        position: relative;
+        top: -100px;
+        left: -75px;
+    }
+    .map-cont{
+        width: 350px;
+        height: 350px;
+    }
+}
